@@ -59,8 +59,8 @@ additional_content_after_post: "" # 文末追加信息，支持 HTML，留空则
 article_header_style: default # 文章内小标题样式，可选值: default, 1, 2
 
 # 背景
-page_background_url: "/assets/img/banner.jpg" # 页面背景地址，留空则不设页面背景
-page_background_dark_url: "/assets/img/banner.jpg" # 夜间模式页面背景地址，留空则跟随日间模式
+page_background_url: "/assets/img/banner.webp" # 页面背景地址，留空则不设页面背景
+page_background_dark_url: "/assets/img/banner.webp" # 夜间模式页面背景地址，留空则跟随日间模式
 page_background_opacity: 1 # 页面背景不透明度，0 ~ 1的小数
 transparent_banner: true # Banner 透明化，如果设置了背景以后推荐开启该选项
 show_toolbar_mask: false # 顶栏遮罩，如背景图片影响了顶栏文字显示对比度建议开启
