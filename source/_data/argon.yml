@@ -6,7 +6,7 @@ enable_amoled_dark: false # 夜间模式样式，false 为灰黑，true 则为�
 card_radius: 4 # 默认卡片圆角大小
 card_shadow: small # 默认卡片阴影大小，可选 small 和 big
 font: sans-serif # 默认字体，可选: sans-serif 无衬线字体, serif 衬线字体
-enable_headroom: false # 滚动时是否自动折叠顶栏
+enable_headroom: true # 滚动时是否自动折叠顶栏
 
 # 顶栏
 toolbar_icon: "" # 顶栏图标图片地址，留空则不显示
