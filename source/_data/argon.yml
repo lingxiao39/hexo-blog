@@ -94,7 +94,7 @@ enable_into_article_animation: false # 是否启用进入文章动画
 enable_mobile_scale: false # 是否允许手机端缩放页面
 
 # 页脚
-footer_html: "" # 页脚 HTML
+footer_html: "<b>不乌合，不从众，独立思考。</b>" # 页脚 HTML
 
 # 数学公式
 math_render: katex # 数学公式渲染方案，留空则不渲染，可选值: mathjax3, mathjax2, katex
