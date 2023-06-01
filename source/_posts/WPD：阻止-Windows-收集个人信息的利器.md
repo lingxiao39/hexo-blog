@@ -24,6 +24,7 @@ tags:
 来到第二个大项 Blocker，这里建议使用 Windows Filtering Platform 进行过滤，以下是 [Microsoft 的描述](https://learn.microsoft.com/en-us/windows/win32/fwp/windows-filtering-platform-start-page)。
 
 > Windows Filtering Platform (WFP) is a set of API and system services that provide a platform for creating network filtering applications. The WFP API allows developers to write code that interacts with the packet processing that takes place at several layers in the networking stack of the operating system.
-> 下面的三个规则为绿色则说明已开启屏蔽，分别对应着 **Windows 遥测**、**第三方应用跟踪** 和 **阻止 Windows Update**，推荐全部开启。
->
-> ![](1670229454968.png)
+
+下面的三个规则为绿色则说明已开启屏蔽，分别对应着 **Windows 遥测**、**第三方应用跟踪** 和 **阻止 Windows Update**，推荐全部开启。
+
+![](1670229454968.png)
