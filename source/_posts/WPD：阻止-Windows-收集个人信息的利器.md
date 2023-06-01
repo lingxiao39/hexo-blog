@@ -12,8 +12,11 @@ tags:
 ## Privacy
 
 首先打开 Privacy 模块，可根据自己的需要关闭对应的选项。对于会影响系统功能的选项在右边会有黄色的感叹号按钮，点击可查看会影响系统的哪些功能。例如 Services 中的 **[连接设备平台用户服务]** 会影响系统的 **夜灯** 功能，**Windows Push Notifications User Service** 会影响操作中心和网络设置。
+
 ![](1670228850059.png)
+
 对于我来说，我保留了 **Allow Clipboard History**（使用剪切板历史，方便的小功能）和 **Windows Push Notifications User Service**。
+
 ![](1670229057887.png)
 
 ## Blocker
@@ -22,4 +25,5 @@ tags:
 
 > Windows Filtering Platform (WFP) is a set of API and system services that provide a platform for creating network filtering applications. The WFP API allows developers to write code that interacts with the packet processing that takes place at several layers in the networking stack of the operating system.
 > 下面的三个规则为绿色则说明已开启屏蔽，分别对应着 **Windows 遥测**、**第三方应用跟踪** 和 **阻止 Windows Update**，推荐全部开启。
+>
 > ![](1670229454968.png)
