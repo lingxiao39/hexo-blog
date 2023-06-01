@@ -22,9 +22,9 @@ banner_title: "" # Banner 标题，留空则跟随博客标题
 enable_banner_title_typing_effect: false # 是否启用 Banner 打字效果
 theme.banner_typing_effect_interval: 100 # Banner 打字间隔时长，单位 ms/字
 banner_subtitle: "" # Banner 子标题，留空则不显示
-banner_background_url: "/assets/img/banner.jpg" # Banner 背景图，留空则不显示
+banner_background_url: /assets/img/banner.jpg # Banner 背景图，留空则不显示
 banner_background_hide_shapes: false # 是否隐藏 Banner 背景圆形
-banner_background_color_type: "shape-primary" # Banner 渐变样式，Banner 背景图会覆盖该选项，可选值: shape-primary, shape-default, shape-dark, bg-gradient-success, bg-gradient-info, bg-gradient-warning, bg-gradient-danger
+banner_background_color_type: shape-primary # Banner 渐变样式，Banner 背景图会覆盖该选项，可选值: shape-primary, shape-default, shape-dark, bg-gradient-success, bg-gradient-info, bg-gradient-warning, bg-gradient-danger
 
 # 侧栏
 sidebar_banner_title: "" # 侧栏标题，留空则跟随博客标题
@@ -36,8 +36,8 @@ leftbar_menu: # 侧栏顶部菜单，支持无限层级菜单嵌套
   # 二级菜单:
   #   三级菜单:
   #     首页: /
-sidebar_auther_image: "/assets/img/auther.jpg" # 侧栏作者头像
-sidebar_auther_name: "" # 侧栏作者名，留空则跟随博客名
+sidebar_auther_image: /assets/img/auther.jpg # 侧栏作者头像
+sidebar_auther_name: SChenga # 侧栏作者名，留空则跟随博客名
 # leftbar_author_links: # 侧栏作者链接列表
 #   aaa: /
 #   bbb: /
@@ -59,8 +59,8 @@ additional_content_after_post: "" # 文末追加信息，支持 HTML，留空则
 article_header_style: default # 文章内小标题样式，可选值: default, 1, 2
 
 # 背景
-page_background_url: "/assets/img/banner.webp" # 页面背景地址，留空则不设页面背景
-page_background_dark_url: "/assets/img/banner.webp" # 夜间模式页面背景地址，留空则跟随日间模式
+page_background_url: /assets/img/banner.webp # 页面背景地址，留空则不设页面背景
+page_background_dark_url: /assets/img/banner.webp # 夜间模式页面背景地址，留空则跟随日间模式
 page_background_opacity: 1 # 页面背景不透明度，0 ~ 1的小数
 transparent_banner: true # Banner 透明化，如果设置了背景以后推荐开启该选项
 show_toolbar_mask: false # 顶栏遮罩，如背景图片影响了顶栏文字显示对比度建议开启
@@ -97,8 +97,8 @@ enable_mobile_scale: false # 是否允许手机端缩放页面
 footer_html: "" # 页脚 HTML
 
 # 数学公式
-math_render: "katex" # 数学公式渲染方案，留空则不渲染，可选值: mathjax3, mathjax2, katex
-mathjax_cdn_url: //cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js # Mathjax 3 CDN 地址
+math_render: katex # 数学公式渲染方案，留空则不渲染，可选值: mathjax3, mathjax2, katex
+mathjax_cdn_url: //cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.min.js # Mathjax 3 CDN 地址
 argon_mathjax_v2_cdn_url: //cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-AMS_HTML # Mathjax 2 CDN 地址
 katex_cdn_url: //cdn.jsdelivr.net/npm/katex@0.11.1/dist/ # Katex CDN 地址
 
@@ -124,9 +124,9 @@ giscus: # https://giscus.app/zh-CN
   repo_id: ""
   category: ""
   category_id: ""
-  mapping: "pathname"
-  input_position: "top"
-  theme: "light"
+  mapping: pathname
+  input_position: top
+  theme: light
   lang: "zh-CN"
 waline: # https://waline.js.org/guide/get-started.html
   enable: false # 是否启用 Waline 评论系统
