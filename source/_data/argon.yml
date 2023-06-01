@@ -1,7 +1,7 @@
 # 全局
-theme_color: '#5e72e4' # 主题色
+theme_color: "#5e72e4" # 主题色
 show_customize_theme_color_picker: true # 允许用户自定义主题色
-darkmode_autoswitch: false # 自动切换夜间模式，可选: false 默认使用日间, alwayson 默认使用夜间, system 跟随系统, time 随时间切换
+darkmode_autoswitch: system # 自动切换夜间模式，可选: false 默认使用日间, alwayson 默认使用夜间, system 跟随系统, time 随时间切换
 enable_amoled_dark: false # 夜间模式样式，false 为灰黑，true 则为暗黑
 card_radius: 4 # 默认卡片圆角大小
 card_shadow: # 默认卡片阴影大小，可选 small 和 big
@@ -9,43 +9,43 @@ font: sans-serif # 默认字体，可选: sans-serif 无衬线字体, serif 衬�
 enable_headroom: false # 滚动时是否自动折叠顶栏
 
 # 顶栏
-toolbar_icon: '' # 顶栏图标图片地址，留空则不显示
-toolbar_icon_link: '' # 顶栏图标链接，点击时跳转
-toolbar_title: '' # 顶栏标题，留空则跟随博客标题
+toolbar_icon: "" # 顶栏图标图片地址，留空则不显示
+toolbar_icon_link: "" # 顶栏图标链接，点击时跳转
+toolbar_title: "" # 顶栏标题，留空则跟随博客标题
 toolbar_menu: # 顶栏菜单，支持二级菜单
-  首页: /home
-  二级菜单:
-    归档: /archives
+  首页: /
+  # 二级菜单:
+  #   归档: /archives
 
 # Banner
-banner_title: '' # Banner 标题，留空则跟随博客标题
+banner_title: "" # Banner 标题，留空则跟随博客标题
 enable_banner_title_typing_effect: false # 是否启用 Banner 打字效果
 theme.banner_typing_effect_interval: 100 # Banner 打字间隔时长，单位 ms/字
-banner_subtitle: '' # Banner 子标题，留空则不显示
-banner_background_url: '/assets/img/banner.jpg' # Banner 背景图，留空则不显示
+banner_subtitle: "" # Banner 子标题，留空则不显示
+banner_background_url: "/assets/img/banner.jpg" # Banner 背景图，留空则不显示
 banner_background_hide_shapes: false # 是否隐藏 Banner 背景圆形
-banner_background_color_type: 'shape-primary' # Banner 渐变样式，Banner 背景图会覆盖该选项，可选值: shape-primary, shape-default, shape-dark, bg-gradient-success, bg-gradient-info, bg-gradient-warning, bg-gradient-danger
+banner_background_color_type: "shape-primary" # Banner 渐变样式，Banner 背景图会覆盖该选项，可选值: shape-primary, shape-default, shape-dark, bg-gradient-success, bg-gradient-info, bg-gradient-warning, bg-gradient-danger
 
 # 侧栏
-sidebar_banner_title: '' # 侧栏标题，留空则跟随博客标题
-sidebar_banner_subtitle: '' # 侧栏子标题，留空则不显示，设为 --hitokoto-- 调用一言
-sidebar_announcement: '' # 侧栏公告，留空则不显示
+sidebar_banner_title: "" # 侧栏标题，留空则跟随博客标题
+sidebar_banner_subtitle: "" # 侧栏子标题，留空则不显示，设为 --hitokoto-- 调用一言
+sidebar_announcement: "" # 侧栏公告，留空则不显示
 leftbar_menu: # 侧栏顶部菜单，支持无限层级菜单嵌套
   首页: /
   归档: /archives
-  二级菜单:
-    三级菜单:
-      首页: /
-sidebar_auther_image: '/assets/img/auther.jpg' # 侧栏作者头像
-sidebar_auther_name: '' # 侧栏作者名，留空则跟随博客名
-leftbar_author_links: # 侧栏作者链接列表
-  aaa: /
-  bbb: /
-  ccc: /
-leftbar_friend_links: # 侧栏友链列表
-  aaa: /
-  bbb: /
-  ccc: /
+  # 二级菜单:
+  #   三级菜单:
+  #     首页: /
+sidebar_auther_image: "/assets/img/auther.jpg" # 侧栏作者头像
+sidebar_auther_name: "" # 侧栏作者名，留空则跟随博客名
+# leftbar_author_links: # 侧栏作者链接列表
+#   aaa: /
+#   bbb: /
+#   ccc: /
+# leftbar_friend_links: # 侧栏友链列表
+#   aaa: /
+#   bbb: /
+#   ccc: /
 show_headindex_number: false # 侧栏文章目录是否显示章节编号
 
 # 文章
@@ -54,13 +54,13 @@ first_image_as_thumbnail: false # 自动取文章第一张图为特色图片
 article_meta: time|categories|read|words|readingtime # 文章 Meta 信息列表，用竖线分隔开，可选: time 发布时间, edittime 编辑时间, categories 分类, read 阅读量，words 字数, readingtime 预计阅读时间
 reading_speed_cn: 300 # 每分钟中文阅读字数，用于计算预计阅读时间
 reading_speed_en: 160 # 每分钟英文阅读单词数，用于计算预计阅读时间
-donate_qrcode_url: '' # 赞赏二维码地址，留空则不显示
-additional_content_after_post: '' # 文末追加信息，支持 HTML，留空则不显示
+donate_qrcode_url: "" # 赞赏二维码地址，留空则不显示
+additional_content_after_post: "" # 文末追加信息，支持 HTML，留空则不显示
 article_header_style: default # 文章内小标题样式，可选值: default, 1, 2
 
 # 背景
-page_background_url: '/assets/img/banner.jpg' # 页面背景地址，留空则不设页面背景
-page_background_dark_url: '/assets/img/banner.jpg' # 夜间模式页面背景地址，留空则跟随日间模式
+page_background_url: "/assets/img/banner.jpg" # 页面背景地址，留空则不设页面背景
+page_background_dark_url: "/assets/img/banner.jpg" # 夜间模式页面背景地址，留空则跟随日间模式
 page_background_opacity: 1 # 页面背景不透明度，0 ~ 1的小数
 transparent_banner: true # Banner 透明化，如果设置了背景以后推荐开启该选项
 show_toolbar_mask: false # 顶栏遮罩，如背景图片影响了顶栏文字显示对比度建议开启
@@ -71,7 +71,7 @@ fab_show_settings_button: true # 是否显示博客设置浮动操作按钮
 fab_show_gotocomment_button: false # 是否显示跳转到评论区浮动操作按钮
 
 # 平滑滚动
-smoothscroll: 1 # 可选值: disabled, 1, 1-pulse, 2, 3
+smoothscroll: 1-pulse # 可选值: disabled, 1, 1-pulse, 2, 3
 
 # Zoomify
 enable_zoomify: true # 是否启用 Zoomify 图片放大预览
@@ -94,52 +94,52 @@ enable_into_article_animation: false # 是否启用进入文章动画
 enable_mobile_scale: false # 是否允许手机端缩放页面
 
 # 页脚
-footer_html: '' # 页脚 HTML
+footer_html: "" # 页脚 HTML
 
 # 数学公式
-math_render: '' # 数学公式渲染方案，留空则不渲染，可选值: mathjax3, mathjax2, katex
+math_render: "katex" # 数学公式渲染方案，留空则不渲染，可选值: mathjax3, mathjax2, katex
 mathjax_cdn_url: //cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js # Mathjax 3 CDN 地址
 argon_mathjax_v2_cdn_url: //cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-AMS_HTML # Mathjax 2 CDN 地址
 katex_cdn_url: //cdn.jsdelivr.net/npm/katex@0.11.1/dist/ # Katex CDN 地址
 
 # 代码高亮
-enable_code_highlight: false # 是否启用 Highlight.js 代码高亮
+enable_code_highlight: true # 是否启用 Highlight.js 代码高亮
 code_theme: vs2015 # 代码高亮主题
 
 # 脚本
-custom_html_head: '' # 页头脚本，HTML
-custom_html_foot: '' # 页尾脚本，HTML
+custom_html_head: "" # 页头脚本，HTML
+custom_html_foot: "" # 页尾脚本，HTML
 
 # 评论
 gitalk:
   enable: false # 是否启用 Gitalk 评论系统
-  owner: ''
-  repo: ''
-  admin: ''
-  clientID: ''
-  clientSecret: ''
+  owner: ""
+  repo: ""
+  admin: ""
+  clientID: ""
+  clientSecret: ""
 giscus: # https://giscus.app/zh-CN
   enable: false # 是否启用 Giscus 评论系统
-  repo: ''
-  repo_id: ''
-  category: ''
-  category_id: ''
-  mapping: 'pathname'
-  input_position: 'top'
-  theme: 'light'
-  lang: 'zh-CN'
+  repo: ""
+  repo_id: ""
+  category: ""
+  category_id: ""
+  mapping: "pathname"
+  input_position: "top"
+  theme: "light"
+  lang: "zh-CN"
 waline: # https://waline.js.org/guide/get-started.html
   enable: false # 是否启用 Waline 评论系统
-  server_url: '' 
+  server_url: ""
 
 # 分析
 # 百度统计
 baidu_analytics:
   enable: false # 是否启用 百度统计
-  id: '' # hm.js? 后的一串字符
+  id: "" # hm.js? 后的一串字符
 
 # gtag 谷歌全局网络代码
 # Google Analytics  Universal Analytics(old) 与 Google Analytics（分析）4 均使用 gtag
 gtag:
   enable: false # 是否启用 gtag
-  id: '' # 请包含 G- 或 UA-
+  id: "" # 请包含 G- 或 UA-

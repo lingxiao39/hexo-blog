@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: "SChenga's blog"
 subtitle: ""
 description: ""
 keywords:
-author: John Doe
-language: en
+author: SChenga
+language: "zh-CN"
 timezone: ""
 
 # URL
@@ -41,9 +41,9 @@ external_link:
 filename_case: 0
 render_drafts: false
 post_asset_folder: true
-marked:
-  prependRoot: true
-  postAsset: true
+# marked:
+#   prependRoot: true
+#   postAsset: true
 relative_link: false
 future: true
 highlight:
@@ -111,16 +111,15 @@ search:
   path: search.xml
   field: post
   content: true
-
-mathjax:
-  tags: none # or 'ams' or 'all'
-  single_dollars: true # enable single dollar signs as in-line math delimiters
-  cjk_width: 0.9 # relative CJK char width
-  normal_width: 0.6 # relative normal (monospace) width
-  append_css: true # add CSS to pages rendered by MathJax
-  every_page: false # if true, every page will be rendered by MathJax regardless the `mathjax` setting in Front-matter
-  packages: # extra packages to load
-  extension_options:
-    {}
-    # you can put your extension options here
-    # see http://docs.mathjax.org/en/latest/options/input/tex.html#tex-extension-options for more detail
+# mathjax:
+#   tags: none # or 'ams' or 'all'
+#   single_dollars: true # enable single dollar signs as in-line math delimiters
+#   cjk_width: 0.9 # relative CJK char width
+#   normal_width: 0.6 # relative normal (monospace) width
+#   append_css: true # add CSS to pages rendered by MathJax
+#   every_page: false # if true, every page will be rendered by MathJax regardless the `mathjax` setting in Front-matter
+#   packages: # extra packages to load
+#   extension_options:
+#     {}
+#     # you can put your extension options here
+#     # see http://docs.mathjax.org/en/latest/options/input/tex.html#tex-extension-options for more detail
