@@ -22,25 +22,44 @@ tags:
 对于以上的第二和第三种情况，请检查网络问题并重试，这里重点讨论第一种情况（被锁区）的解决方案。
 在进入游戏的过程中主要向以下几个域名发起连接：
 
-- cdp.cloud.unity3d.com
-- config.uca.cloud.unity3d.com
-- production-xxxxxxxx-assetbundle.sekai.colorfulpalette.org
-- production-xxxxxxxx-assetbundle-info.sekai.colorfulpalette.org
-- issue.sekai.colorfulpalette.org
-- game-version.sekai.colorfulpalette.org
-  以下域名是 unity 用于收集分析数据的（见 [https://stackoverflow.com/questions/46045805/why-my-game-is-trying-to-connect-to-external-server](https://stackoverflow.com/questions/46045805/why-my-game-is-trying-to-connect-to-external-server)），这两个域名在进入游戏 Rizline 时也会出现
-- cdp.cloud.unity3d.com
-- config.uca.cloud.unity3d.com
-  以下域名为游戏中分发静态资源（例如音乐、谱面文件和图片等）的域名，其中 `xxxxxxxx` 为八位字母和数字组合
-- production-xxxxxxxx-assetbundle.sekai.colorfulpalette.org
-- production-xxxxxxxx-assetbundle-info.sekai.colorfulpalette.org
-  以下域名用于 **游戏结束** 上传成绩时和服务器通信：
-- production-web.sekai.colorfulpalette.org
-- production-game-api.sekai.colorfulpalette.org
-  以下域名用于在 **登录游戏** 时验证玩家 IP 是否在允许范围内（是否解锁），如果不是则会出现无法进入游戏的情况
-- issue.sekai.colorfulpalette.org
-- game-version.sekai.colorfulpalette.org
-  解决锁区问题的核心就是 **以上两个域名** 需要通过官方允许的 IP 向服务器发起连接。
+```bash
+cdp.cloud.unity3d.com
+config.uca.cloud.unity3d.com
+production-xxxxxxxx-assetbundle.sekai.colorfulpalette.org
+production-xxxxxxxx-assetbundle-info.sekai.colorfulpalette.org
+issue.sekai.colorfulpalette.org
+game-version.sekai.colorfulpalette.org
+```
+
+以下域名是 unity 用于收集分析数据的（见 [https://stackoverflow.com/questions/46045805/why-my-game-is-trying-to-connect-to-external-server](https://stackoverflow.com/questions/46045805/why-my-game-is-trying-to-connect-to-external-server)），这两个域名在进入游戏 Rizline 时也会出现
+
+```bash
+cdp.cloud.unity3d.com
+config.uca.cloud.unity3d.com
+```
+
+以下域名为游戏中分发静态资源（例如音乐、谱面文件和图片等）的域名，其中 `xxxxxxxx` 为八位字母和数字组合
+
+```bash
+production-xxxxxxxx-assetbundle.sekai.colorfulpalette.org
+production-xxxxxxxx-assetbundle-info.sekai.colorfulpalette.org
+```
+
+以下域名用于 **游戏结束** 上传成绩时和服务器通信：
+
+```bash
+production-web.sekai.colorfulpalette.org
+production-game-api.sekai.colorfulpalette.org
+```
+
+以下域名用于在 **登录游戏** 时验证玩家 IP 是否在允许范围内（是否解锁），如果不是则会出现无法进入游戏的情况
+
+```bash
+issue.sekai.colorfulpalette.org
+game-version.sekai.colorfulpalette.org
+```
+
+解决锁区问题的核心就是 **以上两个域名** 需要通过官方允许的 IP 向服务器发起连接。
 
 ## 解决方案
 
