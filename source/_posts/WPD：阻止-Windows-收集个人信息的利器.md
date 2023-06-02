@@ -5,8 +5,11 @@ tags:
 ---
 
 [WPD](https://wpd.app) 是一款免费的 Windows 系统隐私设置工具，包含隐私管理、IP 拦截和 Appx 卸载等功能，通过调用系统自带 API 实现禁止相关隐私功能、阻止 Windows 遥测、关闭 Windows Defender 防火墙、阻止 Windows 更新等操作。
+
 从 Windows 10 开始，操作系统对于个人数据的搜集能力大大加强。虽然微软保证不泄露个人信息，但是总让人不放心。如果你不想让微软得到这些数据，可以在系统设置、服务、组策略、注册表等中关闭，WPD 实现了多种隐私设置一处管理。其可以实现的功能有：禁用 UAC、Windows Defender、隐私设置、监控计划任务等；移除 Cortana、One Drive、遥测与数据搜集、遥测主服务、位置服务、Wi-Fi 共享、广告 ID、Defender 数据报告、数据共享、DRM 互联网访问、系统反馈请求、系统搜索、IE/Edge 请勿跟踪等。下面介绍主要的设置方法并分享我自己的设置。
+
 ![](1670228218069.png)
+
 软件主要分为 Privacy、Blocker 和 Apps 三个模块，主要用到前两个模块。
 
 ## Privacy

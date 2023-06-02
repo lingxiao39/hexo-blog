@@ -8,12 +8,15 @@ tags:
 
 Obsidian 是一个功能强大的笔记应用程序，越来越多的用户选择使用它来记录自己的思想、保存自己的笔记。它支持最近很火的双链功能，能在任意页面之间建立连接，最终形成知识网络。也可以不使用它的双链功能，只将其作为我们的个人知识管理库。
 作为一款开源软件，Obsidian 的社区非常活跃，用户自己同时作为开发者在不断开发新的插件来扩展 Obsidian 的功能。其中一个非常有用的插件是 Dataview，它可以让用户使用 Markdown 文件中的数据来创建自定义视图和列表等。使用 Dataview，我们可以轻松地汇总、分析和可视化笔记中的数据。
+
 Dataview 的另一个优点是可以通过简单的标记语言来过滤数据，使得用户可以快速、准确地找到他们需要的信息。这些标记可以使用类似 SQL 的语言进行编写，甚至支持自定义 JavaScript 函数来进一步扩展功能。
+
 如果你是一个需要从海量笔记中快速获取信息的人，那么 Dataview 将是非常值得尝试的插件。本文中，我们将重点介绍它的使用和功能，同时也会分享一些我自己的使用经验和技巧。
 
 ## Dataview Query Language
 
 虽然本文讨论的是 Dataview 中的 JavaScript，但是还是简要介绍一下 Dataview 中的 Query Language。
+
 一个完整的 Dataview 查询包括以下要素
 
 ```sql
@@ -142,7 +145,7 @@ dv.table(
 
 此例中，我们需要记录来自不同平台题目，需要根据 URL 提取平台信息，并显示当前文件的通过状态，例如 A 表示 Accept，N 表示 Not Started，W 表示 Wrong Answer。实现这样的功能需要在子目录的 markdown 头部添加 metadata 如下：
 
-```markdown
+```yaml
 ---
 URL: https://leetcode.cn/problems/two-sum
 Status: A
@@ -195,6 +198,7 @@ dv.table(
 ```
 
 得到的结果如下：
+
 ![](1678841002699.png)
 
 ## 参考资料

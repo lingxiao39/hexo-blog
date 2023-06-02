@@ -44,6 +44,7 @@ IPv4 到 IPv6 时代的过渡 DNS，解析准确度与阿里 DNS 相当
 ### iQDNS
 
 隐私至上的公益 DNS，可在 <https://iqiq.io/servers.html> 查看完整服务器列表
+
 已知缺点：大概率会将 bilibili 负载均衡域名 `i0.hdslb.com` 解析到香港导致大陆 bilibili 图片加载缓慢
 
 - DoH：不支持 DoH3
