@@ -4,7 +4,7 @@
 
 # Site
 title: "SChenga's blog"
-subtitle: ""
+subtitle: "SChenga's blog"
 description: ""
 keywords:
 author: SChenga
@@ -100,7 +100,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: argon # landscape
+theme: fluid # landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
