@@ -1,7 +1,7 @@
 ---
 title: Linux sysctl 调优实战
 date: 2023-06-12 00:00:00
-tags:
+tags: Linux 性能优化
 ---
 
 ## sysctl 的使用方式

@@ -1,7 +1,7 @@
 ---
 title: 使用 Mosdns 搭建本地无污染 DNS
 date: 2023-01-17 00:00:00
-tags:
+tags: DNS 隐私保护 科学上网
 ---
 
 ## 前言
