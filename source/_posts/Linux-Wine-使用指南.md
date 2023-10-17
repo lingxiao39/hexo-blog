@@ -1,7 +1,7 @@
 ---
 title: Linux Wine 使用指南
 date: 2023-10-08 00:00:00
-tags: Linux
+tags: [Linux]
 ---
 
 ## Wine 是什么

@@ -1,7 +1,7 @@
 ---
 title: WPD：阻止 Windows 收集个人信息的利器
 date: 2022-12-05 20:04:23
-tags: 隐私保护
+tags: [隐私保护]
 ---
 
 [WPD](https://wpd.app) 是一款免费的 Windows 系统隐私设置工具，包含隐私管理、IP 拦截和 Appx 卸载等功能，通过调用系统自带 API 实现禁止相关隐私功能、阻止 Windows 遥测、关闭 Windows Defender 防火墙、阻止 Windows 更新等操作。

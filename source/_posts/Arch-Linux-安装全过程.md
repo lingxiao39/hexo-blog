@@ -1,7 +1,7 @@
 ---
 title: Arch Linux 安装全过程
 date: 2023-09-28 00:00:00
-tags: Linux
+tags: [Linux]
 ---
 
 ## 为什么离开 Windows
